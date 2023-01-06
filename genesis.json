@@ -1,5 +1,5 @@
 {
-    "name": "alveychain",
+    "name": "bitindichain",
     "genesis": {
         "nonce": "0x0000000000000000",
         "timestamp": "0x0",
@@ -28,7 +28,7 @@
             "EIP158": 0,
             "EIP155": 0
         },
-        "chainID": 3797,
+        "chainID": 4099,
         "engine": {
             "ibft": {
                 "epochSize": 50,
