@@ -39,7 +39,7 @@ Once again NEVER SHARE YOUR PRIVATE KEY WITH ANYONE! You can import this private
 5. You should see an output like: 
 
 `bitindi.service - Bitindi Node Service
-     Loaded: loaded (/etc/systemd/system/alvey.service; disabled; vendor preset: enabled)
+     Loaded: loaded (/etc/systemd/system/bitindi.service; disabled; vendor preset: enabled)
      Active: active (running) since Mon 2022-11-21 19:56:48 UTC; 8s ago` 
 
 ## Minimum system requirements
