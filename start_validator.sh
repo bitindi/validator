@@ -7,7 +7,7 @@ cd /etc/systemd/system
 echo "Starting Bitindi service..."
 echo "
         [Unit]
-        Description=Alvey Node Service
+        Description=Bitindi Node Service
         [Service]
         Type=simple
         Restart=always
