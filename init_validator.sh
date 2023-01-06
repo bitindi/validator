@@ -17,7 +17,7 @@ sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.18.3.linux-amd64.ta
 echo "export PATH=$PATH:/usr/local/go/bin" >> ~/.profile
 source ~/.profile
 
-# Clone and build alvey
+# Clone and build bitindi
 git clone https://github.com/bitindi/blockchain-core.git && cd blockchain-core
 echo "Building Go executable, please wait..."
 go build -o bitindi main.go
@@ -26,7 +26,7 @@ go build -o bitindi main.go
 echo "Initializing validator directory.."
 cp ../genesis.json . && chmod +x genesis.json
 echo
-./alvey secrets init --data-dir data-dir
+./bitindi secrets init --data-dir data-dir
 echo
 
 ## Show private key
