@@ -1,10 +1,8 @@
-# Validator Setup Script
-
-Validator node setup script for Alvey Chain
+# Bitindi Chain Validator Setup Script
 
 ## Before you Start
 
-You and you alone are responsible for securing the server where your Alvey Validator Node is hosted. 
+You and you alone are responsible for securing the server where your Bitindi Validator Node is hosted. 
 There are many guides available on the internet and youtube tutorials that can help you through hardening your VPS. Here are just a few examples to get you started but there are many more. 
 
 [Initial Server Setup](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-20-04)
@@ -30,17 +28,17 @@ Once again NEVER SHARE YOUR PRIVATE KEY WITH ANYONE! You can import this private
 ## How to Use
 
 1. SSH into you're newly created VM
-2. Run `git clone https://github.com/AlveyCoin/validator && cd validator`
+2. Run `git clone https://github.com/bitindi/validator && cd validator`
 3. Make the setup scripts executable and run them
    1. Run `chmod +x init_validator.sh`
    2. Run `chmod +x start_validator.sh`
    3. Run `./init_validator.sh`
    4. Run `./start_validator.sh`
    
-4. Confirm Alvey Node is Running `sudo systemctl status alvey.service`
+4. Confirm Bitindi Node is Running `sudo systemctl status bitindi.service`
 5. You should see an output like: 
 
-`alvey.service - Alvey Node Service
+`bitindi.service - Bitindi Node Service
      Loaded: loaded (/etc/systemd/system/alvey.service; disabled; vendor preset: enabled)
      Active: active (running) since Mon 2022-11-21 19:56:48 UTC; 8s ago` 
 
