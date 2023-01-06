@@ -18,9 +18,9 @@ echo "export PATH=$PATH:/usr/local/go/bin" >> ~/.profile
 source ~/.profile
 
 # Clone and build alvey
-git clone https://github.com/AlveyCoin/alveychain.git && cd alveychain
+git clone https://github.com/bitindi/blockchain-core.git && cd blockchain-core
 echo "Building Go executable, please wait..."
-go build -o alvey main.go
+go build -o bitindi main.go
 
 # Initialize validator dir
 echo "Initializing validator directory.."
